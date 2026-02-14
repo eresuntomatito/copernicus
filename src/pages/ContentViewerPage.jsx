@@ -13,6 +13,7 @@ import { useUserProgress } from '../context/UserProgressContext';
 import FlashcardQuiz from '../components/FlashcardQuiz';
 import { getContentById } from '../data/contentRegistry';
 import { johnDeereContent, johnDeereFlashcards } from '../data/cases/johnDeereContent';
+import nianticLabsContent, { nianticLabsFlashcards } from '../data/cases/nianticLabsContent';
 import aiCofounderContent, { aiCofounderFlashcards } from '../data/papers/aiCofounderContent';
 
 const ContentViewerPage = () => {
@@ -32,6 +33,10 @@ const ContentViewerPage = () => {
     'john-deere-ai-strategy': {
       content: johnDeereContent,
       flashcards: johnDeereFlashcards
+    },
+    'niantic-labs-ar-gaming': {
+      content: nianticLabsContent,
+      flashcards: nianticLabsFlashcards
     },
     'ai-cofounder-design-thinking': {
       content: aiCofounderContent,

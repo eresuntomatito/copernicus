@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# PDFs (source files are too large for GitHub)
+*.pdf
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

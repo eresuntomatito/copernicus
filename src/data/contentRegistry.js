@@ -30,6 +30,29 @@ export const contentRegistry = [
     sectionCount: 8,
     flashcardCount: 15
   },
+  {
+    id: 'niantic-labs-ar-gaming',
+    type: 'case',
+    title: 'Niantic Labs: Professional Entrepreneurship and AR Gaming',
+    subtitle: 'Google, Pokémon Go, and the Future of Augmented Reality',
+    category: 'Innovation',
+    difficulty: 'advanced',
+    tags: ['AR', 'Gaming', 'Entrepreneurship', 'Platform Strategy', 'Google', 'Pokémon Go'],
+    estimatedTime: '55 min',
+    metadata: {
+      company: 'Niantic Labs',
+      industry: 'Gaming & Augmented Reality',
+      year: 2020,
+      authors: ['Jerome S. Engel', 'Dickson L. Louie'],
+      institution: 'UC Berkeley Haas School of Business'
+    },
+    description: 'John Hanke\'s journey from founding Keyhole (acquired by Google, became Google Earth) through creating Pokémon Go with 1 billion downloads and $2B+ revenue. Examines strategic inflection points, the spin-out from Alphabet, platform strategy decisions, and Niantic\'s positioning as AR/VR market grows from $27B to projected $815B by 2025. Faces competition from tech giants and critical choices about scaling the Real World Platform.',
+    path: '/case/niantic-labs-ar-gaming',
+    contentFile: 'cases/nianticLabsContent',
+    hasFlashcards: true,
+    sectionCount: 7,
+    flashcardCount: 15
+  },
   
   // PAPERS
   {
